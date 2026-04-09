@@ -1,0 +1,83 @@
+
+maintainer-triage-export
+
+Summary
+- "
+    },
+    {
+      "title": "CI environment unclear for Pages apps",
+      "labels": ["ci", "support"],
+      "summary": "Maintainers keep answering the same workflow and deploy questions across the Pages fleet.
+
+
+Action Items
+- "
+    },
+    {
+      "title": "Roadmap vs support traffic mixed together",
+      "labels": ["triage", "process"],
+      "summary": "Feature planning threads are absorbing support questions that should be routed into a clearer maintainer queue.
+
+- {
+  "repo": "Nickgonzales76017/bonfyre",
+  "window": "2026-04 weekly maintainer review",
+  "issues": [
+    {
+      "title": "Setup confusion after runtime split",
+      "labels": ["docs", "onboarding"],
+      "summary": "Multiple users were unsure which Bonfyre repo to start with after the repo graph expansion.
+
+
+Deep Summary
+- Key Details
+  - "
+    },
+    {
+      "title": "Roadmap vs support traffic mixed together",
+      "labels": ["triage", "process"],
+      "summary": "Feature planning threads are absorbing support questions that should be routed into a clearer maintainer queue.
+
+  - {
+  "repo": "Nickgonzales76017/bonfyre",
+  "window": "2026-04 weekly maintainer review",
+  "issues": [
+    {
+      "title": "Setup confusion after runtime split",
+      "labels": ["docs", "onboarding"],
+      "summary": "Multiple users were unsure which Bonfyre repo to start with after the repo graph expansion.
+
+  - "
+    },
+    {
+      "title": "CI environment unclear for Pages apps",
+      "labels": ["ci", "support"],
+      "summary": "Maintainers keep answering the same workflow and deploy questions across the Pages fleet.
+
+
+Transcript
+{
+  "repo": "Nickgonzales76017/bonfyre",
+  "window": "2026-04 weekly maintainer review",
+  "issues": [
+    {
+      "title": "Setup confusion after runtime split",
+      "labels": ["docs", "onboarding"],
+      "summary": "Multiple users were unsure which Bonfyre repo to start with after the repo graph expansion.
+ "
+    },
+    {
+      "title": "CI environment unclear for Pages apps",
+      "labels": ["ci", "support"],
+      "summary": "Maintainers keep answering the same workflow and deploy questions across the Pages fleet.
+ "
+    },
+    {
+      "title": "Roadmap vs support traffic mixed together",
+      "labels": ["triage", "process"],
+      "summary": "Feature planning threads are absorbing support questions that should be routed into a clearer maintainer queue.
+ "
+    }
+  ]
+}
+
+
