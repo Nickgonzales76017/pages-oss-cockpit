@@ -1,0 +1,8 @@
+{
+  "cluster": "maintainer-onboarding-friction",
+  "neighbors": [
+    "docs-bootstrap-confusion",
+    "ci-first-run-errors",
+    "support-vs-roadmap-thread-mixing"
+  ]
+}

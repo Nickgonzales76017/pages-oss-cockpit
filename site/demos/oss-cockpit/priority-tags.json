@@ -1,0 +1,7 @@
+{
+  "items": [
+    { "issue": "docs/setup", "priority": "high", "reason": "repeated confusion" },
+    { "issue": "ci/bootstrap", "priority": "high", "reason": "blocks first contribution" },
+    { "issue": "roadmap/support-split", "priority": "medium", "reason": "maintainer focus" }
+  ]
+}
