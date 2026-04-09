@@ -68,10 +68,9 @@
       "copy": "This is the always-on maintainer path: ingest, brief, and tags. It gives you a compact decision surface without the extra memory and digest fanout.",
       "modules": ["bonfyre-ingest", "bonfyre-brief", "bonfyre-tag"],
       "metrics": {
-        "policy score": "0.571",
-        "latency": "0.294",
-        "utility": "0.703",
-        "outputs": "2 core surfaces"
+        "Best for": "Fast maintainer review",
+        "You get": "A triage summary and priority state",
+        "Good when": "You just need to decide what matters next"
       },
       "outputs": ["triage summary", "priority tags"],
       "links": [
@@ -85,10 +84,9 @@
       "copy": "When the control layer sees enough reuse value, the same triage artifact branches into semantic memory and a maintainer digest. That makes the cockpit useful across sessions instead of only in the moment.",
       "modules": ["bonfyre-brief", "bonfyre-tag", "bonfyre-embed", "bonfyre-emit"],
       "metrics": {
-        "policy score": "0.617",
-        "uplift": "+0.046",
-        "latency delta": "+0.071",
-        "outputs": "4 realized surfaces"
+        "Adds": "Memory and handoff surfaces",
+        "Why it matters": "The same triage work stays useful later",
+        "Keeps": "One shared maintainer artifact"
       },
       "outputs": ["triage summary", "priority tags", "semantic issue memory", "maintainer digest"],
       "links": [
