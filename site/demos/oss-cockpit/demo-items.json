@@ -1,0 +1,55 @@
+[
+  {
+    "id": "demo-oss-cockpit-onboarding",
+    "file": "maintainer-triage-export.json",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer cockpit highlights one priority cluster around onboarding friction, CI confusion, and repeated docs questions.",
+    "tags": ["docs", "onboarding", "ci"],
+    "flagged": true,
+    "demo": true,
+    "outputs": ["triage summary", "priority tags", "semantic issue memory", "maintainer digest"],
+    "outputNotes": {
+      "triage summary": "The summary gives one clear maintainer view before diving into every issue thread.",
+      "priority tags": "Priority tags help maintainers act without reading raw exports.",
+      "semantic issue memory": "This matters when multiple maintainer records need to be searched together instead of one at a time.",
+      "maintainer digest": "The digest turns triage into something shareable across sessions and handoffs."
+    },
+    "outputLinks": {
+      "triage summary": { "href": "demos/oss-cockpit/triage-summary.md", "label": "Open triage summary" },
+      "priority tags": { "href": "demos/oss-cockpit/priority-tags.json", "label": "Open priority tags" },
+      "semantic issue memory": { "href": "demos/oss-cockpit/semantic-memory.json", "label": "Open semantic memory" },
+      "maintainer digest": { "href": "demos/oss-cockpit/maintainer-digest.html", "label": "Open maintainer digest" }
+    },
+    "searchSummary": "Onboarding friction, CI confusion, repeated docs questions.",
+    "whyItMatters": "Maintainer memory is useful only when there is more than one record to compare. Search makes repeated issues visible across triage cycles.",
+    "searchIntro": "Search the seeded maintainer set to see how the same cockpit can surface repeated pain points instead of leaving each export isolated.",
+    "searchOutputs": ["semantic issue memory"]
+  },
+  {
+    "id": "demo-oss-cockpit-release-regressions",
+    "file": "maintainer-release-regressions.json",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "This triage export clusters release regressions around packaging drift, workflow flakiness, and broken install assumptions after publish changes.",
+    "tags": ["release", "packaging", "workflow"],
+    "flagged": true,
+    "demo": true,
+    "outputs": ["triage summary", "semantic issue memory"],
+    "searchSummary": "Packaging drift, workflow flakiness, install regressions.",
+    "whyItMatters": "With multiple triage records, semantic memory starts to show whether a maintainer problem is local or part of a broader recurring pattern."
+  },
+  {
+    "id": "demo-oss-cockpit-support-noise",
+    "file": "maintainer-support-noise.json",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "This export shows support-heavy traffic around API assumptions, setup confusion, and duplicate how-do-I questions that belong in docs instead of roadmap threads.",
+    "tags": ["support", "docs", "triage"],
+    "flagged": false,
+    "demo": true,
+    "outputs": ["priority tags", "maintainer digest"],
+    "searchSummary": "Support noise, API assumptions, duplicate setup questions.",
+    "whyItMatters": "Multiple seeded records let the cockpit demonstrate clustering and retrieval, not just a one-off markdown output."
+  }
+]
