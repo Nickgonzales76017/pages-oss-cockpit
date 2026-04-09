@@ -1,7 +1,7 @@
 {
   "id": "demo-oss-cockpit",
   "file": "maintainer-triage-export.json",
-  "time": "Demo dataset",
+  "time": "Reference corpus",
   "status": "complete",
   "brief": "Maintainer cockpit highlights one priority cluster around onboarding friction, CI confusion, and repeated docs questions. Suggested response is a fast docs patch, one pinned issue for setup, and a clearer division between roadmap discussion and support traffic.",
   "tags": ["docs", "onboarding", "ci"],
