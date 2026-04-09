@@ -25,7 +25,7 @@ jobs:
           git clone --depth 1 https://github.com/Nickgonzales76017/bonfyre-oss.git /tmp/bonfyre
           chmod +x /tmp/bonfyre/scripts/build-portable-runtime.sh
           /tmp/bonfyre/scripts/build-portable-runtime.sh \
-            BonfyreIngest BonfyreTag BonfyreEmit
+            BonfyreIngest BonfyreEmit
           echo "$HOME/.local/bin" >> "$GITHUB_PATH"
       - name: Detect new files
         id: detect
@@ -54,14 +54,11 @@ jobs:
               wav|mp3|m4a|ogg|flac|webm)
                 bonfyre-transcribe "$f" --out "artifacts/${base}.transcript.json"
                 bonfyre-brief "artifacts/${base}.transcript.json" --out "artifacts/${base}.brief.json"
-                bonfyre-tag "artifacts/${base}.brief.json" --out "artifacts/${base}.tags.json"
-                bonfyre-embed "artifacts/${base}.tags.json" --out "artifacts/${base}.embed.json"
                 ;;
               md|txt|json)
                 bonfyre-ingest "$f" --out "artifacts/${base}.ingest.json"
-                bonfyre-tag "artifacts/${base}.ingest.json" --out "artifacts/${base}.tags.json"
                 if command -v bonfyre-embed >/dev/null 2>&1; then
-                  bonfyre-embed "artifacts/${base}.tags.json" --out "artifacts/${base}.embed.json"
+                  bonfyre-embed "artifacts/${base}.ingest.json" --out "artifacts/${base}.embed.json"
                 fi
                 ;;
             esac
