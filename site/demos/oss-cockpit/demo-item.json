@@ -6,5 +6,9 @@
   "brief": "Maintainer cockpit highlights one priority cluster around onboarding friction, CI confusion, and repeated docs questions. Suggested response is a fast docs patch, one pinned issue for setup, and a clearer division between roadmap discussion and support traffic.",
   "tags": ["docs", "onboarding", "ci"],
   "flagged": true,
+  "modules": ["bonfyre-ingest", "bonfyre-brief", "bonfyre-tag", "bonfyre-embed", "bonfyre-emit"],
+  "optionalModules": ["bonfyre-query", "bonfyre-graph", "bonfyre-queue", "bonfyre-sync"],
+  "outputs": ["triage summary", "priority tags", "semantic issue memory", "maintainer digest"],
+  "compositionNote": "The cockpit starts as intake plus triage, but the real Bonfyre move is what comes after: the same artifacts can feed bonfyre-query, bonfyre-graph, bonfyre-queue, and bonfyre-sync without rebuilding the maintainer workflow from scratch.",
   "demo": true
 }
