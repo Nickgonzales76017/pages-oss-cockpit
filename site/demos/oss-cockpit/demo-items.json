@@ -1,55 +1,2802 @@
 [
   {
-    "id": "demo-oss-cockpit-onboarding",
-    "file": "maintainer-triage-export.json",
+    "id": "oss-docs-confusion-cli-week-1-001",
+    "file": "cli docs confusion — week-1",
     "time": "Demo dataset",
     "status": "complete",
-    "brief": "Maintainer cockpit highlights one priority cluster around onboarding friction, CI confusion, and repeated docs questions.",
-    "tags": ["docs", "onboarding", "ci"],
-    "flagged": true,
-    "demo": true,
-    "outputs": ["triage summary", "priority tags", "semantic issue memory", "maintainer digest"],
-    "outputNotes": {
-      "triage summary": "The summary gives one clear maintainer view before diving into every issue thread.",
-      "priority tags": "Priority tags help maintainers act without reading raw exports.",
-      "semantic issue memory": "This matters when multiple maintainer records need to be searched together instead of one at a time.",
-      "maintainer digest": "The digest turns triage into something shareable across sessions and handoffs."
-    },
-    "outputLinks": {
-      "triage summary": { "href": "demos/oss-cockpit/triage-summary.md", "label": "Open triage summary" },
-      "priority tags": { "href": "demos/oss-cockpit/priority-tags.json", "label": "Open priority tags" },
-      "semantic issue memory": { "href": "demos/oss-cockpit/semantic-memory.json", "label": "Open semantic memory" },
-      "maintainer digest": { "href": "demos/oss-cockpit/maintainer-digest.html", "label": "Open maintainer digest" }
-    },
-    "searchSummary": "Onboarding friction, CI confusion, repeated docs questions.",
-    "whyItMatters": "Maintainer memory is useful only when there is more than one record to compare. Search makes repeated issues visible across triage cycles.",
-    "searchIntro": "Search the seeded maintainer set to see how the same cockpit can surface repeated pain points instead of leaving each export isolated.",
-    "searchOutputs": ["semantic issue memory"]
-  },
-  {
-    "id": "demo-oss-cockpit-release-regressions",
-    "file": "maintainer-release-regressions.json",
-    "time": "Demo dataset",
-    "status": "complete",
-    "brief": "This triage export clusters release regressions around packaging drift, workflow flakiness, and broken install assumptions after publish changes.",
-    "tags": ["release", "packaging", "workflow"],
-    "flagged": true,
-    "demo": true,
-    "outputs": ["triage summary", "semantic issue memory"],
-    "searchSummary": "Packaging drift, workflow flakiness, install regressions.",
-    "whyItMatters": "With multiple triage records, semantic memory starts to show whether a maintainer problem is local or part of a broader recurring pattern."
-  },
-  {
-    "id": "demo-oss-cockpit-support-noise",
-    "file": "maintainer-support-noise.json",
-    "time": "Demo dataset",
-    "status": "complete",
-    "brief": "This export shows support-heavy traffic around API assumptions, setup confusion, and duplicate how-do-I questions that belong in docs instead of roadmap threads.",
-    "tags": ["support", "docs", "triage"],
+    "brief": "Maintainer export clusters docs confusion in the cli area during week-1. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "cli",
+      "docs confusion",
+      "urgent"
+    ],
     "flagged": false,
     "demo": true,
-    "outputs": ["priority tags", "maintainer digest"],
-    "searchSummary": "Support noise, API assumptions, duplicate setup questions.",
-    "whyItMatters": "Multiple seeded records let the cockpit demonstrate clustering and retrieval, not just a one-off markdown output."
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "cli, docs confusion, urgent",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-cli-week-2-002",
+    "file": "cli docs confusion — week-2",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the cli area during week-2. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "cli",
+      "docs confusion",
+      "urgent"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "cli, docs confusion, urgent",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-cli-week-3-003",
+    "file": "cli docs confusion — week-3",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the cli area during week-3. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "cli",
+      "docs confusion",
+      "urgent"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "cli, docs confusion, urgent",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-cli-week-4-004",
+    "file": "cli docs confusion — week-4",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the cli area during week-4. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "cli",
+      "docs confusion",
+      "urgent"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "cli, docs confusion, urgent",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-cli-week-1-005",
+    "file": "cli docs confusion — week-1",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the cli area during week-1. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "cli",
+      "docs confusion",
+      "important"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "cli, docs confusion, important",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-cli-week-2-006",
+    "file": "cli docs confusion — week-2",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the cli area during week-2. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "cli",
+      "docs confusion",
+      "important"
+    ],
+    "flagged": true,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "cli, docs confusion, important",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-cli-week-3-007",
+    "file": "cli docs confusion — week-3",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the cli area during week-3. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "cli",
+      "docs confusion",
+      "important"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "cli, docs confusion, important",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-cli-week-4-008",
+    "file": "cli docs confusion — week-4",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the cli area during week-4. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "cli",
+      "docs confusion",
+      "important"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "cli, docs confusion, important",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-cli-week-1-009",
+    "file": "cli docs confusion — week-1",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the cli area during week-1. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "cli",
+      "docs confusion",
+      "steady"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "cli, docs confusion, steady",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-cli-week-2-010",
+    "file": "cli docs confusion — week-2",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the cli area during week-2. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "cli",
+      "docs confusion",
+      "steady"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "cli, docs confusion, steady",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-cli-week-3-011",
+    "file": "cli docs confusion — week-3",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the cli area during week-3. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "cli",
+      "docs confusion",
+      "steady"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "cli, docs confusion, steady",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-cli-week-4-012",
+    "file": "cli docs confusion — week-4",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the cli area during week-4. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "cli",
+      "docs confusion",
+      "steady"
+    ],
+    "flagged": true,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "cli, docs confusion, steady",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-cli-week-1-013",
+    "file": "cli docs confusion — week-1",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the cli area during week-1. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "cli",
+      "docs confusion",
+      "background"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "cli, docs confusion, background",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-cli-week-2-014",
+    "file": "cli docs confusion — week-2",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the cli area during week-2. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "cli",
+      "docs confusion",
+      "background"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "cli, docs confusion, background",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-cli-week-3-015",
+    "file": "cli docs confusion — week-3",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the cli area during week-3. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "cli",
+      "docs confusion",
+      "background"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "cli, docs confusion, background",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-cli-week-4-016",
+    "file": "cli docs confusion — week-4",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the cli area during week-4. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "cli",
+      "docs confusion",
+      "background"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "cli, docs confusion, background",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-pages-week-1-017",
+    "file": "pages docs confusion — week-1",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the pages area during week-1. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "pages",
+      "docs confusion",
+      "urgent"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "pages, docs confusion, urgent",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-pages-week-2-018",
+    "file": "pages docs confusion — week-2",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the pages area during week-2. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "pages",
+      "docs confusion",
+      "urgent"
+    ],
+    "flagged": true,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "pages, docs confusion, urgent",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-pages-week-3-019",
+    "file": "pages docs confusion — week-3",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the pages area during week-3. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "pages",
+      "docs confusion",
+      "urgent"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "pages, docs confusion, urgent",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-pages-week-4-020",
+    "file": "pages docs confusion — week-4",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the pages area during week-4. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "pages",
+      "docs confusion",
+      "urgent"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "pages, docs confusion, urgent",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-pages-week-1-021",
+    "file": "pages docs confusion — week-1",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the pages area during week-1. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "pages",
+      "docs confusion",
+      "important"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "pages, docs confusion, important",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-pages-week-2-022",
+    "file": "pages docs confusion — week-2",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the pages area during week-2. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "pages",
+      "docs confusion",
+      "important"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "pages, docs confusion, important",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-pages-week-3-023",
+    "file": "pages docs confusion — week-3",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the pages area during week-3. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "pages",
+      "docs confusion",
+      "important"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "pages, docs confusion, important",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-pages-week-4-024",
+    "file": "pages docs confusion — week-4",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the pages area during week-4. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "pages",
+      "docs confusion",
+      "important"
+    ],
+    "flagged": true,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "pages, docs confusion, important",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-pages-week-1-025",
+    "file": "pages docs confusion — week-1",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the pages area during week-1. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "pages",
+      "docs confusion",
+      "steady"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "pages, docs confusion, steady",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-pages-week-2-026",
+    "file": "pages docs confusion — week-2",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the pages area during week-2. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "pages",
+      "docs confusion",
+      "steady"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "pages, docs confusion, steady",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-pages-week-3-027",
+    "file": "pages docs confusion — week-3",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the pages area during week-3. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "pages",
+      "docs confusion",
+      "steady"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "pages, docs confusion, steady",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-pages-week-4-028",
+    "file": "pages docs confusion — week-4",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the pages area during week-4. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "pages",
+      "docs confusion",
+      "steady"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "pages, docs confusion, steady",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-pages-week-1-029",
+    "file": "pages docs confusion — week-1",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the pages area during week-1. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "pages",
+      "docs confusion",
+      "background"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "pages, docs confusion, background",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-pages-week-2-030",
+    "file": "pages docs confusion — week-2",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the pages area during week-2. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "pages",
+      "docs confusion",
+      "background"
+    ],
+    "flagged": true,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "pages, docs confusion, background",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-pages-week-3-031",
+    "file": "pages docs confusion — week-3",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the pages area during week-3. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "pages",
+      "docs confusion",
+      "background"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "pages, docs confusion, background",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-pages-week-4-032",
+    "file": "pages docs confusion — week-4",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the pages area during week-4. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "pages",
+      "docs confusion",
+      "background"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "pages, docs confusion, background",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-runtime-week-1-033",
+    "file": "runtime docs confusion — week-1",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the runtime area during week-1. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "runtime",
+      "docs confusion",
+      "urgent"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "runtime, docs confusion, urgent",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-runtime-week-2-034",
+    "file": "runtime docs confusion — week-2",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the runtime area during week-2. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "runtime",
+      "docs confusion",
+      "urgent"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "runtime, docs confusion, urgent",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-runtime-week-3-035",
+    "file": "runtime docs confusion — week-3",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the runtime area during week-3. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "runtime",
+      "docs confusion",
+      "urgent"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "runtime, docs confusion, urgent",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-runtime-week-4-036",
+    "file": "runtime docs confusion — week-4",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the runtime area during week-4. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "runtime",
+      "docs confusion",
+      "urgent"
+    ],
+    "flagged": true,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "runtime, docs confusion, urgent",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-runtime-week-1-037",
+    "file": "runtime docs confusion — week-1",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the runtime area during week-1. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "runtime",
+      "docs confusion",
+      "important"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "runtime, docs confusion, important",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-runtime-week-2-038",
+    "file": "runtime docs confusion — week-2",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the runtime area during week-2. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "runtime",
+      "docs confusion",
+      "important"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "runtime, docs confusion, important",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-runtime-week-3-039",
+    "file": "runtime docs confusion — week-3",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the runtime area during week-3. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "runtime",
+      "docs confusion",
+      "important"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "runtime, docs confusion, important",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-runtime-week-4-040",
+    "file": "runtime docs confusion — week-4",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the runtime area during week-4. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "runtime",
+      "docs confusion",
+      "important"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "runtime, docs confusion, important",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-runtime-week-1-041",
+    "file": "runtime docs confusion — week-1",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the runtime area during week-1. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "runtime",
+      "docs confusion",
+      "steady"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "runtime, docs confusion, steady",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-runtime-week-2-042",
+    "file": "runtime docs confusion — week-2",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the runtime area during week-2. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "runtime",
+      "docs confusion",
+      "steady"
+    ],
+    "flagged": true,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "runtime, docs confusion, steady",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-runtime-week-3-043",
+    "file": "runtime docs confusion — week-3",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the runtime area during week-3. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "runtime",
+      "docs confusion",
+      "steady"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "runtime, docs confusion, steady",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-runtime-week-4-044",
+    "file": "runtime docs confusion — week-4",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the runtime area during week-4. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "runtime",
+      "docs confusion",
+      "steady"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "runtime, docs confusion, steady",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-runtime-week-1-045",
+    "file": "runtime docs confusion — week-1",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the runtime area during week-1. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "runtime",
+      "docs confusion",
+      "background"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "runtime, docs confusion, background",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-runtime-week-2-046",
+    "file": "runtime docs confusion — week-2",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the runtime area during week-2. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "runtime",
+      "docs confusion",
+      "background"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "runtime, docs confusion, background",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-runtime-week-3-047",
+    "file": "runtime docs confusion — week-3",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the runtime area during week-3. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "runtime",
+      "docs confusion",
+      "background"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "runtime, docs confusion, background",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-runtime-week-4-048",
+    "file": "runtime docs confusion — week-4",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the runtime area during week-4. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "runtime",
+      "docs confusion",
+      "background"
+    ],
+    "flagged": true,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "runtime, docs confusion, background",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-embedding-week-1-049",
+    "file": "embedding docs confusion — week-1",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the embedding area during week-1. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "embedding",
+      "docs confusion",
+      "urgent"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "embedding, docs confusion, urgent",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-embedding-week-2-050",
+    "file": "embedding docs confusion — week-2",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the embedding area during week-2. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "embedding",
+      "docs confusion",
+      "urgent"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "embedding, docs confusion, urgent",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-embedding-week-3-051",
+    "file": "embedding docs confusion — week-3",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the embedding area during week-3. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "embedding",
+      "docs confusion",
+      "urgent"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "embedding, docs confusion, urgent",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-embedding-week-4-052",
+    "file": "embedding docs confusion — week-4",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the embedding area during week-4. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "embedding",
+      "docs confusion",
+      "urgent"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "embedding, docs confusion, urgent",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-embedding-week-1-053",
+    "file": "embedding docs confusion — week-1",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the embedding area during week-1. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "embedding",
+      "docs confusion",
+      "important"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "embedding, docs confusion, important",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-embedding-week-2-054",
+    "file": "embedding docs confusion — week-2",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the embedding area during week-2. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "embedding",
+      "docs confusion",
+      "important"
+    ],
+    "flagged": true,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "embedding, docs confusion, important",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-embedding-week-3-055",
+    "file": "embedding docs confusion — week-3",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the embedding area during week-3. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "embedding",
+      "docs confusion",
+      "important"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "embedding, docs confusion, important",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-embedding-week-4-056",
+    "file": "embedding docs confusion — week-4",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the embedding area during week-4. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "embedding",
+      "docs confusion",
+      "important"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "embedding, docs confusion, important",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-embedding-week-1-057",
+    "file": "embedding docs confusion — week-1",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the embedding area during week-1. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "embedding",
+      "docs confusion",
+      "steady"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "embedding, docs confusion, steady",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-embedding-week-2-058",
+    "file": "embedding docs confusion — week-2",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the embedding area during week-2. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "embedding",
+      "docs confusion",
+      "steady"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "embedding, docs confusion, steady",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-embedding-week-3-059",
+    "file": "embedding docs confusion — week-3",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the embedding area during week-3. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "embedding",
+      "docs confusion",
+      "steady"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "embedding, docs confusion, steady",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-embedding-week-4-060",
+    "file": "embedding docs confusion — week-4",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the embedding area during week-4. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "embedding",
+      "docs confusion",
+      "steady"
+    ],
+    "flagged": true,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "embedding, docs confusion, steady",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-embedding-week-1-061",
+    "file": "embedding docs confusion — week-1",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the embedding area during week-1. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "embedding",
+      "docs confusion",
+      "background"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "embedding, docs confusion, background",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-embedding-week-2-062",
+    "file": "embedding docs confusion — week-2",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the embedding area during week-2. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "embedding",
+      "docs confusion",
+      "background"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "embedding, docs confusion, background",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-embedding-week-3-063",
+    "file": "embedding docs confusion — week-3",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the embedding area during week-3. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "embedding",
+      "docs confusion",
+      "background"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "embedding, docs confusion, background",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-embedding-week-4-064",
+    "file": "embedding docs confusion — week-4",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the embedding area during week-4. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "embedding",
+      "docs confusion",
+      "background"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "embedding, docs confusion, background",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-packaging-week-1-065",
+    "file": "packaging docs confusion — week-1",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the packaging area during week-1. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "packaging",
+      "docs confusion",
+      "urgent"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "packaging, docs confusion, urgent",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-packaging-week-2-066",
+    "file": "packaging docs confusion — week-2",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the packaging area during week-2. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "packaging",
+      "docs confusion",
+      "urgent"
+    ],
+    "flagged": true,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "packaging, docs confusion, urgent",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-packaging-week-3-067",
+    "file": "packaging docs confusion — week-3",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the packaging area during week-3. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "packaging",
+      "docs confusion",
+      "urgent"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "packaging, docs confusion, urgent",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-packaging-week-4-068",
+    "file": "packaging docs confusion — week-4",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the packaging area during week-4. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "packaging",
+      "docs confusion",
+      "urgent"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "packaging, docs confusion, urgent",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-packaging-week-1-069",
+    "file": "packaging docs confusion — week-1",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the packaging area during week-1. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "packaging",
+      "docs confusion",
+      "important"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "packaging, docs confusion, important",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-packaging-week-2-070",
+    "file": "packaging docs confusion — week-2",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the packaging area during week-2. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "packaging",
+      "docs confusion",
+      "important"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "packaging, docs confusion, important",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-packaging-week-3-071",
+    "file": "packaging docs confusion — week-3",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the packaging area during week-3. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "packaging",
+      "docs confusion",
+      "important"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "packaging, docs confusion, important",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-packaging-week-4-072",
+    "file": "packaging docs confusion — week-4",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the packaging area during week-4. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "packaging",
+      "docs confusion",
+      "important"
+    ],
+    "flagged": true,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "packaging, docs confusion, important",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-packaging-week-1-073",
+    "file": "packaging docs confusion — week-1",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the packaging area during week-1. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "packaging",
+      "docs confusion",
+      "steady"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "packaging, docs confusion, steady",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-packaging-week-2-074",
+    "file": "packaging docs confusion — week-2",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the packaging area during week-2. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "packaging",
+      "docs confusion",
+      "steady"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "packaging, docs confusion, steady",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-packaging-week-3-075",
+    "file": "packaging docs confusion — week-3",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the packaging area during week-3. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "packaging",
+      "docs confusion",
+      "steady"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "packaging, docs confusion, steady",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-packaging-week-4-076",
+    "file": "packaging docs confusion — week-4",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the packaging area during week-4. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "packaging",
+      "docs confusion",
+      "steady"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "packaging, docs confusion, steady",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-packaging-week-1-077",
+    "file": "packaging docs confusion — week-1",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the packaging area during week-1. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "packaging",
+      "docs confusion",
+      "background"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "packaging, docs confusion, background",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-packaging-week-2-078",
+    "file": "packaging docs confusion — week-2",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the packaging area during week-2. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "packaging",
+      "docs confusion",
+      "background"
+    ],
+    "flagged": true,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "packaging, docs confusion, background",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-packaging-week-3-079",
+    "file": "packaging docs confusion — week-3",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the packaging area during week-3. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "packaging",
+      "docs confusion",
+      "background"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "packaging, docs confusion, background",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-docs-confusion-packaging-week-4-080",
+    "file": "packaging docs confusion — week-4",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters docs confusion in the packaging area during week-4. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "packaging",
+      "docs confusion",
+      "background"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "packaging, docs confusion, background",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-release-regressions-cli-week-1-081",
+    "file": "cli release regressions — week-1",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters release regressions in the cli area during week-1. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "cli",
+      "release regressions",
+      "urgent"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "cli, release regressions, urgent",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-release-regressions-cli-week-2-082",
+    "file": "cli release regressions — week-2",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters release regressions in the cli area during week-2. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "cli",
+      "release regressions",
+      "urgent"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "cli, release regressions, urgent",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-release-regressions-cli-week-3-083",
+    "file": "cli release regressions — week-3",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters release regressions in the cli area during week-3. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "cli",
+      "release regressions",
+      "urgent"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "cli, release regressions, urgent",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-release-regressions-cli-week-4-084",
+    "file": "cli release regressions — week-4",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters release regressions in the cli area during week-4. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "cli",
+      "release regressions",
+      "urgent"
+    ],
+    "flagged": true,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "cli, release regressions, urgent",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-release-regressions-cli-week-1-085",
+    "file": "cli release regressions — week-1",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters release regressions in the cli area during week-1. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "cli",
+      "release regressions",
+      "important"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "cli, release regressions, important",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-release-regressions-cli-week-2-086",
+    "file": "cli release regressions — week-2",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters release regressions in the cli area during week-2. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "cli",
+      "release regressions",
+      "important"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "cli, release regressions, important",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-release-regressions-cli-week-3-087",
+    "file": "cli release regressions — week-3",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters release regressions in the cli area during week-3. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "cli",
+      "release regressions",
+      "important"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "cli, release regressions, important",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-release-regressions-cli-week-4-088",
+    "file": "cli release regressions — week-4",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters release regressions in the cli area during week-4. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "cli",
+      "release regressions",
+      "important"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "cli, release regressions, important",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-release-regressions-cli-week-1-089",
+    "file": "cli release regressions — week-1",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters release regressions in the cli area during week-1. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "cli",
+      "release regressions",
+      "steady"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "cli, release regressions, steady",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-release-regressions-cli-week-2-090",
+    "file": "cli release regressions — week-2",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters release regressions in the cli area during week-2. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "cli",
+      "release regressions",
+      "steady"
+    ],
+    "flagged": true,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "cli, release regressions, steady",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-release-regressions-cli-week-3-091",
+    "file": "cli release regressions — week-3",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters release regressions in the cli area during week-3. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "cli",
+      "release regressions",
+      "steady"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "cli, release regressions, steady",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-release-regressions-cli-week-4-092",
+    "file": "cli release regressions — week-4",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters release regressions in the cli area during week-4. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "cli",
+      "release regressions",
+      "steady"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "cli, release regressions, steady",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-release-regressions-cli-week-1-093",
+    "file": "cli release regressions — week-1",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters release regressions in the cli area during week-1. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "cli",
+      "release regressions",
+      "background"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "cli, release regressions, background",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-release-regressions-cli-week-2-094",
+    "file": "cli release regressions — week-2",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters release regressions in the cli area during week-2. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "cli",
+      "release regressions",
+      "background"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "cli, release regressions, background",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-release-regressions-cli-week-3-095",
+    "file": "cli release regressions — week-3",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters release regressions in the cli area during week-3. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "cli",
+      "release regressions",
+      "background"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "cli, release regressions, background",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-release-regressions-cli-week-4-096",
+    "file": "cli release regressions — week-4",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters release regressions in the cli area during week-4. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "cli",
+      "release regressions",
+      "background"
+    ],
+    "flagged": true,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "cli, release regressions, background",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-release-regressions-pages-week-1-097",
+    "file": "pages release regressions — week-1",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters release regressions in the pages area during week-1. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "pages",
+      "release regressions",
+      "urgent"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "pages, release regressions, urgent",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-release-regressions-pages-week-2-098",
+    "file": "pages release regressions — week-2",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters release regressions in the pages area during week-2. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "pages",
+      "release regressions",
+      "urgent"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "pages, release regressions, urgent",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-release-regressions-pages-week-3-099",
+    "file": "pages release regressions — week-3",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters release regressions in the pages area during week-3. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "pages",
+      "release regressions",
+      "urgent"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "pages, release regressions, urgent",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
+  },
+  {
+    "id": "oss-release-regressions-pages-week-4-100",
+    "file": "pages release regressions — week-4",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Maintainer export clusters release regressions in the pages area during week-4. The point of the demo is seeing how one triage artifact joins a durable maintainer memory instead of disappearing after review.",
+    "tags": [
+      "pages",
+      "release regressions",
+      "urgent"
+    ],
+    "flagged": false,
+    "demo": true,
+    "outputs": [
+      "triage summary",
+      "priority tags",
+      "semantic issue memory",
+      "maintainer digest"
+    ],
+    "outputNotes": {},
+    "outputLinks": {},
+    "searchSummary": "pages, release regressions, urgent",
+    "whyItMatters": "A larger maintainer corpus makes semantic memory and digest handoff feel like real leverage, not a feature bullet.",
+    "searchIntro": "Search across many seeded maintainer records to see repeated docs, release, and support patterns emerge.",
+    "searchOutputs": [
+      "semantic issue memory"
+    ]
   }
 ]
