@@ -59,5 +59,43 @@
       "label": "Open maintainer digest"
     }
   },
+  "compare": {
+    "title": "With And Without The New Layer",
+    "note": "The floor already gives maintainers a usable triage object. The orchestration layer only stays when it expands that same object into memory and handoff surfaces that earn their latency.",
+    "floor": {
+      "kicker": "Deterministic Floor",
+      "title": "Triage summary and priority state",
+      "copy": "This is the always-on maintainer path: ingest, brief, and tags. It gives you a compact decision surface without the extra memory and digest fanout.",
+      "modules": ["bonfyre-ingest", "bonfyre-brief", "bonfyre-tag"],
+      "metrics": {
+        "policy score": "0.571",
+        "latency": "0.294",
+        "utility": "0.703",
+        "outputs": "2 core surfaces"
+      },
+      "outputs": ["triage summary", "priority tags"],
+      "links": [
+        { "href": "demos/oss-cockpit/triage-summary.md", "label": "Open triage summary" },
+        { "href": "demos/oss-cockpit/priority-tags.json", "label": "Open priority tags" }
+      ]
+    },
+    "layered": {
+      "kicker": "Orchestrated Layer",
+      "title": "Same maintainer input, memory and handoff added",
+      "copy": "When the control layer sees enough reuse value, the same triage artifact branches into semantic memory and a maintainer digest. That makes the cockpit useful across sessions instead of only in the moment.",
+      "modules": ["bonfyre-brief", "bonfyre-tag", "bonfyre-embed", "bonfyre-emit"],
+      "metrics": {
+        "policy score": "0.617",
+        "uplift": "+0.046",
+        "latency delta": "+0.071",
+        "outputs": "4 realized surfaces"
+      },
+      "outputs": ["triage summary", "priority tags", "semantic issue memory", "maintainer digest"],
+      "links": [
+        { "href": "demos/oss-cockpit/semantic-memory.json", "label": "Open semantic memory" },
+        { "href": "demos/oss-cockpit/maintainer-digest.html", "label": "Open maintainer digest" }
+      ]
+    }
+  },
   "demo": true
 }
