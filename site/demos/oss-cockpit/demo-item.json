@@ -10,5 +10,11 @@
   "optionalModules": ["bonfyre-query", "bonfyre-graph", "bonfyre-queue", "bonfyre-sync"],
   "outputs": ["triage summary", "priority tags", "semantic issue memory", "maintainer digest"],
   "compositionNote": "The cockpit starts as intake plus triage, but the real Bonfyre move is what comes after: the same artifacts can feed bonfyre-query, bonfyre-graph, bonfyre-queue, and bonfyre-sync without rebuilding the maintainer workflow from scratch.",
+  "outputNotes": {
+    "triage summary": "bonfyre-brief gives maintainers one compact view of the current issue cluster so they can decide before they dive into every thread.",
+    "priority tags": "bonfyre-tag adds a lightweight operational layer on top of the same intake artifact, which means priority can be inferred and revised without changing the source record.",
+    "semantic issue memory": "bonfyre-embed turns maintainer inputs into a memory surface that can later be searched semantically instead of only by labels or exact strings.",
+    "maintainer digest": "bonfyre-emit turns the triage state into a shareable digest for async review, handoff, or weekly maintainer rhythm."
+  },
   "demo": true
 }
